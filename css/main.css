@@ -49,6 +49,7 @@ div {
 
 
 
+  /*
   p.error{
     color: red;
   }
@@ -77,8 +78,30 @@ text-decoration: none;
 font-weight: bold;
 text-transform: uppercase;
 }
-a[href*="google"]{
+a[href$=".com"]{
   color: white;
   background: red;
   border: 2px solid blue;
 }
+
+*/
+
+div {
+  color:lightcoral;
+  border: 1px solid gray;
+  margin: 40px;
+  font-weight: bold;
+}
+
+div p{
+  border: inherit;
+  margin: inherit;
+  color:crimson;
+}
+p{
+  color: orange;
+
+}
+
+
+
